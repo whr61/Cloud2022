@@ -5,6 +5,9 @@ import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.time.ZonedDateTime;
+import java.util.Arrays;
+
 /**
  * @author Reed
  * @Description
@@ -19,4 +22,10 @@ public class GateWayConfig {
         routes.route("payment_routh",r->r.path("/guonei").uri("https://news.baidu.com/guonei"));
         return routes.build();
     }
+
+    public static void main(String[] args) {
+        ZonedDateTime zbj = ZonedDateTime.now();
+        System.out.println(zbj);
+    }
+
 }
