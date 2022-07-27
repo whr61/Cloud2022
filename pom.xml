@@ -18,6 +18,7 @@
       <module>gateway-gateway9527</module>
       <module>alibaba-provider-payment9001</module>
       <module>alibaba-provider-payment9002</module>
+      <module>consumer-nacos-order83</module>
   </modules>
   <packaging>pom</packaging>
 
