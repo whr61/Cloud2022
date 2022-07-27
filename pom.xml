@@ -17,6 +17,7 @@
       <module>provider-payment8002</module>
       <module>gateway-gateway9527</module>
       <module>alibaba-provider-payment9001</module>
+      <module>alibaba-provider-payment9002</module>
   </modules>
   <packaging>pom</packaging>
 
