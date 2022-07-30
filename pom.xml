@@ -14,14 +14,13 @@
       <module>consumer-feign-order80</module>
       <module>eureka-server7001</module>
       <module>eureka-server7002</module>
-      <module>provider-payment8002</module>
       <module>gateway-gateway9527</module>
       <module>alibaba-provider-payment9001</module>
       <module>alibaba-provider-payment9002</module>
       <module>consumer-nacos-order83</module>
       <module>alibaba-config-nacos-client3377</module>
       <module>alibaba-sentinel-service8401</module>
-    <module>provider-payment8002</module>
+      <module>provider-payment8002</module>
   </modules>
   <packaging>pom</packaging>
 
