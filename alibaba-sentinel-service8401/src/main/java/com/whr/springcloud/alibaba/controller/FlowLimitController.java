@@ -15,7 +15,7 @@ public class FlowLimitController {
     @GetMapping("/testA")
     public String testA(){
         try{
-            System.out.println("1111111111");
+            System.out.println("2222222");
             TimeUnit.MILLISECONDS.sleep(850);
         }catch(InterruptedException e){
             e.printStackTrace();
