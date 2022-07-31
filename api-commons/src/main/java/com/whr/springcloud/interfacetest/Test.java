@@ -7,7 +7,7 @@ package com.whr.springcloud.interfacetest;
  */
 public class Test {
     public static void main(String[] args) {
-        FoodMenu foodMenu = new ChinaCooker();
+        FoodMenu foodMenu = new WesternCooker();
         Customer customer = new Customer(foodMenu);
         customer.order();
     }
