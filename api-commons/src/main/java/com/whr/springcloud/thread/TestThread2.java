@@ -11,7 +11,7 @@ import java.net.URL;
  * @date 2022/7/31 20:22
  **/
 
-public class TestThread2 extends Thread{
+class TestThread2 extends Thread{
     private String url;
     private String name;
     public TestThread2(String url,String name){
