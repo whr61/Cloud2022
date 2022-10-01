@@ -30,7 +30,6 @@ class CollegeEmployee {
     public String getId() {return id;}
 }
 
-
 //管理学院员工的管理类
 class CollegeManager {
     //返回学院的所有员工
