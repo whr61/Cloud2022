@@ -11,7 +11,7 @@ public class SimpleFactory {
     //简单工厂模式 也叫 静态工厂模式
     public static Pizza createPizza(String orderType) {
         Pizza pizza = null;
-        System.out.println("使用简单工厂模式2");
+        System.out.println("使用简单工厂模式");
         if (orderType.equals("greek")) {
             pizza = new GreekPizza();
             pizza.setName("希腊披萨");
