@@ -13,7 +13,7 @@ public class OrderPizza {
     public OrderPizza() {
         do {
             orderType = getType();
-            pizza = SimpleFactory.createPizza2(orderType);
+            pizza = SimpleFactory.createPizza(orderType);
             // 输出pizza
             if (pizza != null) { // 订购成功
                 pizza.prepare();
