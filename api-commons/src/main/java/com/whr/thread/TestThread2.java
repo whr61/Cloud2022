@@ -1,4 +1,4 @@
-package com.whr.springcloud.thread;
+package com.whr.thread;
 
 import org.apache.commons.io.FileUtils;
 import java.io.File;

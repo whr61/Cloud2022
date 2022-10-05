@@ -1,4 +1,4 @@
-package com.whr.springcloud.thread;
+package com.whr.thread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
