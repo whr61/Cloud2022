@@ -21,7 +21,4 @@ public class Decorator extends Drink {
 		// obj.getDes()被装饰者的信息
 		return super.des+" "+super.getPrice()+" && "+obj.getDes();
 	}
-	
-	
-
 }
