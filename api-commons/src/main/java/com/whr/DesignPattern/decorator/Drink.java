@@ -3,7 +3,8 @@ package com.whr.DesignPattern.decorator;
 public abstract class Drink {
 
 	public String des; //描述
-	private float price = 0.0f;
+	private float price = 0.0f; //价格
+
 	public String getDes() {
 		return des;
 	}

@@ -2,8 +2,8 @@ package com.whr.DesignPattern.decorator;
 
 public class Decorator extends Drink {
 
-	private Drink obj;
-	public Decorator(Drink obj) { //
+	private Drink obj;//被修饰者
+	public Decorator(Drink obj) {
 		// TODO Auto-generated constructor stub
 		this.obj = obj;
 	}
