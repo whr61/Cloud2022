@@ -1,4 +1,6 @@
-package com.whr.DesignPattern.decorator;
+package com.whr.DesignPattern.decorator.coffee;
+
+import com.whr.DesignPattern.decorator.Coffee;
 
 public class Espresso extends Coffee {
 	public Espresso() {

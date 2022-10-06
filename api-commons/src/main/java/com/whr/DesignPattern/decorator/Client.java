@@ -1,5 +1,10 @@
 package com.whr.DesignPattern.decorator;
 
+import com.whr.DesignPattern.decorator.coffee.DeCaf;
+import com.whr.DesignPattern.decorator.coffee.LongBlack;
+import com.whr.DesignPattern.decorator.coffeemate.Chocolate;
+import com.whr.DesignPattern.decorator.coffeemate.Milk;
+
 public class Client {
 
 	public static void main(String[] args) {

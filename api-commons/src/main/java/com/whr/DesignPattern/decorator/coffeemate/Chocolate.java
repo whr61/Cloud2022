@@ -1,4 +1,7 @@
-package com.whr.DesignPattern.decorator;
+package com.whr.DesignPattern.decorator.coffeemate;
+
+import com.whr.DesignPattern.decorator.Decorator;
+import com.whr.DesignPattern.decorator.Drink;
 
 //具体的Decorator，这里就是调味品
 public class Chocolate extends Decorator {
