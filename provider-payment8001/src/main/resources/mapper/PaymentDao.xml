@@ -11,4 +11,7 @@
     <select id="getPaymentById" resultMap="PaymentMap" parameterType="Long">
         select * from payment where id = #{id}
     </select>
+    <select id="getPagePayment" resultMap="PaymentMap" parameterType="map">
+        select * from payment limit #{startIndex},#{pageSize};
+    </select>
 </mapper>
